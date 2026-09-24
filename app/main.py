@@ -15,11 +15,12 @@ from app.routes import device_routes, loan_routes, relationship_routes, user_rou
 # Crear aplicación FastAPI
 app = FastAPI(
     title="device_systems API",
-    description="API REST segura para gestionar usuarios, dispositivos y prestamos en device_systems",
+    description="API REST segura para gestionar usuarios, dispositivos y préstamos en device_systems",
     version="3.0.0",
-    contact={"name": "gilmaro6", "url": "https://github.com/gilmaro6/device_systems"},
+    contact={"name": "Silvana"},
     docs_url="/docs",
     redoc_url="/redoc"
+
 )
 
 app.state.limiter = limiter
